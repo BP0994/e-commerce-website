@@ -7,7 +7,7 @@ const List_item = () => {
         <ul className="menu bg-base-200 w-56 rounded-box">
           <li>
             <details open>
-              <summary>Women's Fashion</summary>
+              <summary>{"Women's Fashion"}</summary>
               <ul>
                 <li>
                   <a>Submenu 1</a>
@@ -20,7 +20,7 @@ const List_item = () => {
           </li>
           <li>
             <details open>
-              <summary>Men's Fashion</summary>
+              <summary>{"Men's Fashion"}</summary>
               <ul>
                 <li>
                   <a>Submenu 1</a>
@@ -44,7 +44,7 @@ const List_item = () => {
             <a>Sports & Outdoor</a>
           </li>
           <li>
-            <a>Boy's & Toys</a>
+            <a>{"Boy's & Toys"}</a>
           </li>
           <li>
             <a>Health & Beauty</a>
