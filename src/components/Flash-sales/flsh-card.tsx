@@ -1,14 +1,13 @@
 "use client"
 import React from "react";
 import iphone from "../../assets/iphone.png";
-import { Image } from "@nextui-org/react";
 
 const Flash_card = ({
   image,
   title,
   rate,
 }: {
-  image?: string;
+  image?:  string ;
   title?: string;
   rate?: number;
 }) => {
@@ -16,8 +15,8 @@ const Flash_card = ({
     <div className=" backdrop-blur-xl bg-white flex flex-wrap justify-around  gap-y-4 ">
       <div className="p-4 rounded w-60   shadow-xl h-[550px]">
         <figure className="	">
-          <Image
-            src={image }
+          <img
+            src={image}
             alt="Shoes max-w-52 max-h-72"
             className="rounded-lg max-w-52 h-72"
           />

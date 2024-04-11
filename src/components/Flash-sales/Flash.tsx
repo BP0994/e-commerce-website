@@ -25,7 +25,7 @@ const Flash = () => {
         </div>
         <div className="flex flex-col justify-start gap-4 sm:gap-8 sm:flex-row">
           <h1 className="text-2xl font-bold text-black">Flash Sales</h1>
-          <h1 className="text-2xl font-bold text-black">Flash Sales</h1>
+          {/* <h1 className="text-2xl font-bold text-black">Flash Sales</h1> */}
         </div>
         <div className="my-8 flex overflow-y-auto gap-x-2">
           {table.map((data:{id:number , image:string , title:string , price : number})=>{
